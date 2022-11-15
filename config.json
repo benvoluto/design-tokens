@@ -1,0 +1,59 @@
+{
+  "source": ["tokens/*.json"],
+  "platforms": {
+    "scss": {
+      "transforms": ["color/rgb", "attribute/cti", "name/cti/kebab"],
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [{
+        "destination": "_boulevard-style.scss",
+        "format": "scss/variables"
+      }]
+    },
+    "css": {
+      "transformGroup": "css",
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/rgb"],
+      "buildPath": "build/css/",
+      "files": [{
+        "destination": "_boulevard-style.css",
+        "format": "css/variables",
+        "options" : {
+          "showFileHeader": true
+        }
+      }]
+    },
+    "javascript/module-flat": {
+      "transforms": ["attribute/cti", "name/cti/camel", "color/rgb"],
+      "transformGroup": "js",
+      "buildPath": "build/js/",
+      "files": [
+        {
+          "destination": "boulevard-style.js",
+          "format": "javascript/module-flat"
+        }
+      ]
+    },
+    "js": {
+      "transforms": ["attribute/cti", "name/cti/camel", "color/rgb"],
+      "transformGroup": "js",
+      "buildPath": "build/es6/",
+      "files": [
+        {
+          "destination": "boulevard-style.js",
+          "format": "javascript/es6"
+        }
+      ]
+    },
+    "json/flat": {
+      "transforms": ["attribute/cti", "name/cti/camel", "color/rgb"],
+      "transformGroup": "js",
+      "buildPath": "build/json/",
+      "files": [
+        {
+          "destination": "boulevard-style.json",
+          "format": "json/flat"
+        }
+      ]
+    }
+  }
+}
