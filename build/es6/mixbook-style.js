@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 21 Nov 2022 22:54:53 GMT
+ * Generated on Mon, 21 Nov 2022 23:06:21 GMT
  */
 
 export const shadowLow = {"color":"#00000026","type":"dropShadow","x":0,"y":3,"blur":16,"spread":0};
