@@ -6,7 +6,7 @@
       "transformGroup": "scss",
       "buildPath": "build/scss/",
       "files": [{
-        "destination": "_boulevard-style.scss",
+        "destination": "_mixbook-style.scss",
         "format": "scss/variables"
       }]
     },
@@ -15,7 +15,7 @@
       "transforms": ["attribute/cti", "name/cti/kebab", "color/rgb"],
       "buildPath": "build/css/",
       "files": [{
-        "destination": "_boulevard-style.css",
+        "destination": "_mixbook-style.css",
         "format": "css/variables",
         "options" : {
           "showFileHeader": true
@@ -28,7 +28,7 @@
       "buildPath": "build/js/",
       "files": [
         {
-          "destination": "boulevard-style.js",
+          "destination": "mixbook-style.js",
           "format": "javascript/module-flat"
         }
       ]
@@ -39,7 +39,7 @@
       "buildPath": "build/es6/",
       "files": [
         {
-          "destination": "boulevard-style.js",
+          "destination": "mixbook-style.js",
           "format": "javascript/es6"
         }
       ]
@@ -50,7 +50,7 @@
       "buildPath": "build/json/",
       "files": [
         {
-          "destination": "boulevard-style.json",
+          "destination": "mixbook-style.json",
           "format": "json/flat"
         }
       ]
